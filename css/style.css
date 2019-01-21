@@ -1,15 +1,30 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #333;
   font-family: sans-serif;
   font-size: 10px;
 }
 
+.content h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.content h3 {
+  font-size: 14px;
+}
+
 .container {
+  background-color: #D3D3D3;
   margin: 0 auto;
   width: 420px;
 }
 
 nav {
+  background-color: black;
   margin: 0 auto;
   padding: 10px 0 15px 15px;
   position: fixed;
@@ -18,4 +33,21 @@ nav {
 
 .restaurant-list {
   padding-top: 50px;
+}
+
+/* This is where I'm struggling: I keep modifying the percentages to replicate what I see visually
+on the example design in the checkpoint
+
+.location, .content {
+  padding: 2%;
+}
+
+.arrow {
+  float: right;
+  padding-top: 1%;
+}
+*/
+
+.location:hover {
+  background-color: #C0C0C0;
 }
