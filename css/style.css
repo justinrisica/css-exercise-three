@@ -33,20 +33,24 @@ nav {
 
 .restaurant-list {
   padding-top: 50px;
+  width: 100%;
 }
 
-/* This is where I'm struggling: I keep modifying the percentages to replicate what I see visually
-on the example design in the checkpoint
+.location {
+  display: inline;
+  width: 40%;
+}
 
-.location, .content {
-  padding: 2%;
+.content {
+  display: inline-block;
+  width: 40%;
 }
 
 .arrow {
+  display: inline-block;
   float: right;
-  padding-top: 1%;
+  width: 20%;
 }
-*/
 
 .location:hover {
   background-color: #C0C0C0;
